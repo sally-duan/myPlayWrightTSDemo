@@ -1,0 +1,1259 @@
+# Test info
+
+- Name: All links on CNN homepage return status < 400
+- Location: C:\Users\randu\source\repos\PlaywRightPlayground\tests\first.spec.js:3:5
+
+# Error details
+
+```
+Error: page.goto: Test timeout of 30000ms exceeded.
+Call log:
+  - navigating to "https://www.cnn.com/", waiting until "load"
+
+    at C:\Users\randu\source\repos\PlaywRightPlayground\tests\first.spec.js:7:14
+```
+
+# Page snapshot
+
+```yaml
+- banner:
+  - iframe
+  - text: Advertisement Ad Feedback
+  - navigation:
+    - button "Open Menu Icon":
+      - img
+    - link "CNN logo":
+      - /url: https://www.cnn.com
+      - img
+    - navigation:
+      - link "US":
+        - /url: https://www.cnn.com/us
+      - link "World":
+        - /url: https://www.cnn.com/world
+      - link "Politics":
+        - /url: https://www.cnn.com/politics
+      - link "Business":
+        - /url: https://www.cnn.com/business
+      - link "Health":
+        - /url: https://www.cnn.com/health
+      - link "Entertainment":
+        - /url: https://www.cnn.com/entertainment
+      - text: More
+    - link "Watch":
+      - /url: https://www.cnn.com/video
+    - link "Listen":
+      - /url: https://www.cnn.com/audio
+    - link "Live TV":
+      - /url: https://www.cnn.com/live-tv
+    - button "Search Icon"
+    - link "Subscribe Button": Subscribe
+    - navigation "User Account Nav":
+      - link "User Account Log In Button": Sign in
+    - separator
+- main:
+  - 'link "Live Updates: Sean ‘Diddy’ Combs trial |"':
+    - /url: /entertainment/live-news/diddy-combs-trial-cassie-case-06-03-25
+  - 'link "Trending: Jonathan Joss dies at 59 |"':
+    - /url: /2025/06/02/entertainment/jonathan-joss-dead-shooting
+  - link "Trump portrait |":
+    - /url: /2025/06/03/politics/trump-new-official-portrait-white-house
+  - link "Ukraine strikes Crimea bridge |":
+    - /url: /2025/06/03/europe/ukraine-crimea-bridge-russia-underwater-intl
+  - link "Father’s Day gifts":
+    - /url: https://www.cnn.com/cnn-underscored/gifts/fathers-day-gift-ideas
+  - link "Musk calls Trump's agenda bill 'a disgusting abomination'":
+    - /url: /2025/06/03/politics/elon-musk-trump-republican-bill
+    - heading "Musk calls Trump's agenda bill 'a disgusting abomination'" [level=2]
+  - 'link "WASHINGTON, DC - MAY 30: Tesla CEO Elon Musk speaks alongside U.S. President Donald Trump to reporters in the Oval Office of the White House on May 30, 2025 in Washington, DC. Musk, who served as an adviser to Trump and led the Department of Government Efficiency, announced he would leave his role in the Trump administration to refocus on his businesses. (Photo by Kevin Dietsch/Getty Images)"':
+    - /url: /2025/06/03/politics/elon-musk-trump-republican-bill
+    - 'img "WASHINGTON, DC - MAY 30: Tesla CEO Elon Musk speaks alongside U.S. President Donald Trump to reporters in the Oval Office of the White House on May 30, 2025 in Washington, DC. Musk, who served as an adviser to Trump and led the Department of Government Efficiency, announced he would leave his role in the Trump administration to refocus on his businesses. (Photo by Kevin Dietsch/Getty Images)"'
+  - link "Several White House officials were caught off guard by the tech billionaire's denouncement, which came just days after he left the government":
+    - /url: /2025/06/03/politics/elon-musk-trump-republican-bill
+  - link "Citigroup reverses firearms policy after pressure from Trump administration on big banks":
+    - /url: /2025/06/03/business/citigroup-firearms-policy-trump
+  - link "White House formally sends its DOGE spending cuts request to Congress":
+    - /url: /2025/06/03/politics/doge-cuts-rescissions-package-trump
+  - 'link "Analysis: A key figure in Trump’s conspiracy coalition goes on trial"':
+    - /url: /2025/06/03/media/mike-lindell-trump-dominion-defamation-trial-mypillow
+  - link "still_21674909_1086.338_still.jpg":
+    - /url: /2025/06/03/politics/video/musk-trump-bill-disgusting-abomination-leavitt-digvid
+    - img "still_21674909_1086.338_still.jpg"
+  - link "Karoline Leavitt asked about Musk’s post lashing out at Trump’s agenda bill 1:14":
+    - /url: /2025/06/03/politics/video/musk-trump-bill-disgusting-abomination-leavitt-digvid
+  - link "The John Lewis-class replenishment oiler USNS Harvey Milk (T-AO-206) conducts a replenishment at sea with the world’s largest aircraft carrier, USS Gerald R. Ford (CVN 78), December 13, 2024.":
+    - /url: /2025/06/03/politics/hegseth-orders-renaming-ship-named-harvey-milk
+    - img "The John Lewis-class replenishment oiler USNS Harvey Milk (T-AO-206) conducts a replenishment at sea with the world’s largest aircraft carrier, USS Gerald R. Ford (CVN 78), December 13, 2024."
+  - link "Hegseth orders renaming of ship named after gay rights icon Harvey Milk":
+    - /url: /2025/06/03/politics/hegseth-orders-renaming-ship-named-harvey-milk
+  - link "Supreme Court Justices Brett Kavanaugh and Amy Coney Barrett greet President Donald Trump after his address to a joint session of Congress at the US Capitol on March 4.":
+    - /url: /2025/06/03/politics/amy-coney-barrett-justice-trump
+    - img "Supreme Court Justices Brett Kavanaugh and Amy Coney Barrett greet President Donald Trump after his address to a joint session of Congress at the US Capitol on March 4."
+  - link "Trump privately frustrated with Justice Amy Coney Barrett":
+    - /url: /2025/06/03/politics/amy-coney-barrett-justice-trump
+  - link "An Israeli flag is fixed to a street sign as police stand by off Pearl Street on the scene of an attack on demonstrators calling for the release of Israeli hostages held in Gaza, in Boulder, Colorado, on June 1, 2025. Several people suffered burns and other injuries June 1st in the US state of Colorado in what the FBI called a \"targeted terror attack\" against demonstrators seeking the release of Israeli hostages held in Gaza. Police in the city of Boulder said a man was taken into custody. They were more cautious in presuming a possible motive for the attack, which multiple sources said was committed against members of the Jewish community during a peaceful gathering. (Photo by Eli Imadali / AFP) (Photo by ELI IMADALI/AFP via Getty Images)":
+    - /url: /2025/06/03/us/boulder-attack-suspect-family-detained
+    - img "An Israeli flag is fixed to a street sign as police stand by off Pearl Street on the scene of an attack on demonstrators calling for the release of Israeli hostages held in Gaza, in Boulder, Colorado, on June 1, 2025. Several people suffered burns and other injuries June 1st in the US state of Colorado in what the FBI called a \"targeted terror attack\" against demonstrators seeking the release of Israeli hostages held in Gaza. Police in the city of Boulder said a man was taken into custody. They were more cautious in presuming a possible motive for the attack, which multiple sources said was committed against members of the Jewish community during a peaceful gathering. (Photo by Eli Imadali / AFP) (Photo by ELI IMADALI/AFP via Getty Images)"
+  - link "Family of Colorado attack suspect taken into ICE custody":
+    - /url: /2025/06/03/us/boulder-attack-suspect-family-detained
+  - 'link "''Unsafe and unsure'': America''s Jewish community is on edge after third major attack in two months"':
+    - /url: /2025/06/03/us/jewish-americans-antisemitism
+  - 'link "CNN Investigates: Colorado suspect told authorities he waited for his daughter to graduate high school before carrying out attack"':
+    - /url: /2025/06/02/us/boulder-colorado-antisemitic-attack-mohamed-soliman-invs
+  - link "How a demonstration for Israeli hostages ended in an antisemitic firebombing":
+    - /url: /2025/06/03/us/details-colorado-protest-attack
+  - link "Boulder antisemitic attacker makes court appearance 1:40":
+    - /url: /2025/06/02/us/video/boulder-colorado-antisemitic-attack-law-enforcement-vrtc
+  - link "Harvard University's campus on May 24 in Cambridge, Massachusetts. For Subscribers":
+    - /url: /2025/06/03/us/trump-administration-harvard-battle
+    - img "Harvard University's campus on May 24 in Cambridge, Massachusetts."
+    - text: For Subscribers
+  - 'link "‘Go after them where it hurts’: How the Trump administration has moved the goalposts in its battle with Harvard"':
+    - /url: /2025/06/03/us/trump-administration-harvard-battle
+  - button "Play":
+    - img "Play"
+  - region "video player"
+  - link "Watch the latest CNN Headlines":
+    - /url: https://www.cnn.com/videos/fast/cnn-headlines
+  - link "Sean \"Diddy\" Combs listens as hotel security guard Eddy Garcia testifies on Tuesday.":
+    - /url: /entertainment/live-news/diddy-combs-trial-cassie-case-06-03-25
+    - img "Sean \"Diddy\" Combs listens as hotel security guard Eddy Garcia testifies on Tuesday."
+  - link "What happened today in Sean ‘Diddy’ Combs’ federal trial":
+    - /url: /entertainment/live-news/diddy-combs-trial-cassie-case-06-03-25
+  - link "Photo evidence of baby oil, lubricant, drugs and cash found by investigators inside the New York hotel room where Sean \"Diddy\" Combs was staying when he was arrested on September 16, 2024 has been released to the media.<br />Investigators found resealable bags and bottles of baby oil and lubricant in a closet, in the bathroom, on the nightstand and elsewhere in the room, Homeland Security Investigations special agent Yasin Binda testified at Combs' trial on Friday.<br /><br /><br />Standards/Legal Guidance:<br /><br /><br />Photos shouldn't be used in opens/teases; images should be written to and put in the context of the testimony.":
+    - /url: /2025/06/03/entertainment/sean-diddy-combs-drugs-trial
+    - img "Photo evidence of baby oil, lubricant, drugs and cash found by investigators inside the New York hotel room where Sean \"Diddy\" Combs was staying when he was arrested on September 16, 2024 has been released to the media.<br />Investigators found resealable bags and bottles of baby oil and lubricant in a closet, in the bathroom, on the nightstand and elsewhere in the room, Homeland Security Investigations special agent Yasin Binda testified at Combs' trial on Friday.<br /><br /><br />Standards/Legal Guidance:<br /><br /><br />Photos shouldn't be used in opens/teases; images should be written to and put in the context of the testimony."
+  - 'link "Uppers, downers, Obama-shaped ecstasy: Combs trial is window into drug culture"':
+    - /url: /2025/06/03/entertainment/sean-diddy-combs-drugs-trial
+  - link "Jonathan Joss at the Smoky Mountain Fan Fest at the Gatlinburg Convention Center in Gatlinburg, Tennessee, on July 31, 2021.":
+    - /url: /2025/06/03/entertainment/jonathan-joss-tribute-nick-offerman
+    - img "Jonathan Joss at the Smoky Mountain Fan Fest at the Gatlinburg Convention Center in Gatlinburg, Tennessee, on July 31, 2021."
+  - link "What Jonathan Joss’s alleged shooter told police":
+    - /url: /2025/06/03/entertainment/jonathan-joss-tribute-nick-offerman
+  - link "1. Anonymous, Condom with print, c. 1830. Acquired through the F.G. Waller Fonds":
+    - /url: /2025/06/03/style/200-year-old-condom-rijksmuseum-scli-intl
+    - img "1. Anonymous, Condom with print, c. 1830. Acquired through the F.G. Waller Fonds"
+  - link "Museum displays 19th-century condom with a miniature erotic work of art":
+    - /url: /2025/06/03/style/200-year-old-condom-rijksmuseum-scli-intl
+  - heading "More top stories" [level=2]
+  - link "Employees work at a pharmaceutical production facility in Ji'an, Jiangxi Province of China, on March 6, 2025. For Subscribers":
+    - /url: /2025/06/03/business/trump-tariffs-china-pharmaceuticals-intl-hnk
+    - img "Employees work at a pharmaceutical production facility in Ji'an, Jiangxi Province of China, on March 6, 2025."
+    - text: For Subscribers
+  - link "China has a tight grip on global pharmaceuticals":
+    - /url: /2025/06/03/business/trump-tariffs-china-pharmaceuticals-intl-hnk
+  - link "Man admits to attempting to frame migrant accused of threatening Trump, prosecutors say":
+    - /url: /2025/06/03/politics/wisconsin-man-threaten-trump-migrant-dhs
+  - 'link "Analysis: 2 key findings on Democrats’ brand problem from the new CNN poll"':
+    - /url: /2025/06/03/politics/democrats-brand-findings-cnn-poll
+  - link "Laura Loomer meets with JD Vance at White House complex, sources say":
+    - /url: /2025/06/03/politics/laura-loomer-jd-vance-meeting
+  - link "Judge blocks Trump from cutting off gender-affirming care for federal inmates":
+    - /url: /2025/06/03/politics/judge-federal-prisons-transgender
+  - 'link "Jan. 6 rioter refusing pardon: ‘I never realized a president could become a cult leader’ 3:00"':
+    - /url: /2025/06/03/politics/video/pam-hemphill-jan-6-refuse-pardon-trump-sitroom-digvid
+  - link "Law enforcement raids home where escaped fugitive filmed apparent video claiming innocence, asking Lil Wayne and Trump for help, source says":
+    - /url: /2025/06/03/us/new-orleans-inmate-escape-antoine-massey
+  - link "Canadian official pressed by CNN on if new border security bill appeases Trump 1:03":
+    - /url: /2025/06/03/world/video/canada-strong-borders-act-appease-trump-paula-newton-digvid
+  - link "Content by The Motley Fool Hands down one of the best cards for good credit":
+    - /url: https://www.fool.com/money/credit-cards/landing/bank-america-travel-rewards/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-boatravel032025-ron-5-hp-nb&utm_medium=cpc&utm_source=cnn&hpt=ob_blogfooterold&obOrigUrl=true
+  - heading "Russia-Ukraine" [level=2]
+  - link "Police officers stand at the site of Russian missile strike, amid Russia's attack on Ukraine in Sumy, June 3, 2025. REUTERS/Stringer":
+    - /url: /2025/06/03/europe/russia-forces-advance-northern-ukraine-sumy-intl
+    - img "Police officers stand at the site of Russian missile strike, amid Russia's attack on Ukraine in Sumy, June 3, 2025. REUTERS/Stringer"
+  - link "Russian forces advance in northern Ukraine, within range of city of Sumy":
+    - /url: /2025/06/03/europe/russia-forces-advance-northern-ukraine-sumy-intl
+  - link "Inside Ukraine’s audacious drone attack on Russian air bases":
+    - /url: /2025/06/02/europe/inside-ukraine-drone-attack-russian-air-bases-latam-intl
+  - link "Ukraine strikes bridge connecting Russia to Crimea with underwater explosives":
+    - /url: /2025/06/03/europe/ukraine-crimea-bridge-russia-underwater-intl
+  - heading "Middle East" [level=2]
+  - link "Palestinians mourn by the bodies of relatives who were killed by Israeli fire as they gathered near a US-backed aid center in the Rafah area, at the Nasser hospital in the southern Gaza Strip on June 3, 2025.":
+    - /url: /2025/06/03/middleeast/gaza-aid-distribution-deadly-what-to-know-latam-intl
+    - img "Palestinians mourn by the bodies of relatives who were killed by Israeli fire as they gathered near a US-backed aid center in the Rafah area, at the Nasser hospital in the southern Gaza Strip on June 3, 2025."
+  - link "Aid distribution in Gaza has turned deadly. Here’s what to know":
+    - /url: /2025/06/03/middleeast/gaza-aid-distribution-deadly-what-to-know-latam-intl
+  - link "US consulting group terminates contract with controversial US-backed Gaza aid organization":
+    - /url: /2025/06/03/politics/us-consulting-group-terminates-contract-gaza-aid-group
+  - link "Palestinians rushed into hospital after coming under fire while trying to get aid 1:07":
+    - /url: /2025/06/03/world/video/gaza-aid-distribution-shooting-hospital-ldn-digvid
+  - iframe
+  - text: Advertisement Ad Feedback
+  - iframe
+  - text: Advertisement Ad Feedback
+  - heading "CNN Underscored" [level=2]
+  - link "A group of car phone holders in a Toyota Corolla.":
+    - /url: /cnn-underscored/reviews/best-car-phone-holders
+    - img "A group of car phone holders in a Toyota Corolla."
+  - link "My car doesn’t have GPS, so I tested the best car phone holders to modernize my ride":
+    - /url: /cnn-underscored/reviews/best-car-phone-holders
+  - link "The Philips Sonicare 4100 electric toothbrush, on a marble countertop":
+    - /url: /cnn-underscored/reviews/best-electric-toothbrush
+    - img "The Philips Sonicare 4100 electric toothbrush, on a marble countertop"
+  - link "Dentists recommend using an electric toothbrush, but which one is the best? We tested a bunch to find out":
+    - /url: /cnn-underscored/reviews/best-electric-toothbrush
+  - link "amazon-fathers-day-gifts-cnnu.jpg":
+    - /url: /cnn-underscored/gifts/amazon-fathers-day-gift-ideas
+    - img "amazon-fathers-day-gifts-cnnu.jpg"
+  - link "46 Father’s Day gifts from Amazon your dad will actually use and enjoy":
+    - /url: /cnn-underscored/gifts/amazon-fathers-day-gift-ideas
+  - iframe
+  - text: Advertisement Ad Feedback
+  - heading "What's Buzzing" [level=2]
+  - link "Former Knicks head coach Tom Thibodeau looks on during Game 3 of the 2025 Eastern Conference Finals.":
+    - /url: /2025/06/03/sport/tom-thibodeau-fired-knicks-spt
+    - img "Former Knicks head coach Tom Thibodeau looks on during Game 3 of the 2025 Eastern Conference Finals."
+  - link "New York Knicks fire head coach Tom Thibodeau days after being bounced from playoffs":
+    - /url: /2025/06/03/sport/tom-thibodeau-fired-knicks-spt
+  - 'link "NEW YORK, NEW YORK - OCTOBER 29: (L-R) Salma Hayek, Augustin Evangelista and Linda Evangelista attend the WSJ. Magazine 2024 Innovator Awards on October 29, 2024 in New York City. (Photo by Noam Galai/Getty Images for WSJ. Magazine Innovators Awards)"':
+    - /url: /2025/06/03/entertainment/linda-evangelista-salma-hayek-son-graduation
+    - 'img "NEW YORK, NEW YORK - OCTOBER 29: (L-R) Salma Hayek, Augustin Evangelista and Linda Evangelista attend the WSJ. Magazine 2024 Innovator Awards on October 29, 2024 in New York City. (Photo by Noam Galai/Getty Images for WSJ. Magazine Innovators Awards)"'
+  - link "Linda Evangelista and Salma Hayek are blended-family goals":
+    - /url: /2025/06/03/entertainment/linda-evangelista-salma-hayek-son-graduation
+  - link "GNGL costume thumb 1.jpg":
+    - /url: /2025/06/03/style/video/clooney-murrow-good-night-costumes-digvid
+    - img "GNGL costume thumb 1.jpg"
+  - link "Dressing George Clooney in Edward R. Murrow’s 1950s style 2:43":
+    - /url: /2025/06/03/style/video/clooney-murrow-good-night-costumes-digvid
+  - heading "Check these out" [level=2]
+  - 'link "Ray Dalio, founder of Bridgewater Associates, speaks during an event on May 22 at the Paley Center for Media in New York, NY, as part of the Paley Media Council series. The billionaire investor and hedge fund manager shared his insight on the trends shaping the global economy and markets ahead of the publication of his new book, \"How Countries Go Broke: The Big Cycle,\" which was released on June 3."':
+    - /url: /2025/06/03/business/ray-dalio-deficit-bond-market
+    - 'img "Ray Dalio, founder of Bridgewater Associates, speaks during an event on May 22 at the Paley Center for Media in New York, NY, as part of the Paley Media Council series. The billionaire investor and hedge fund manager shared his insight on the trends shaping the global economy and markets ahead of the publication of his new book, \"How Countries Go Broke: The Big Cycle,\" which was released on June 3."'
+  - link "Ray Dalio just joined the list of billionaires sounding the alarm on the US economy":
+    - /url: /2025/06/03/business/ray-dalio-deficit-bond-market
+  - link "Charles L. Krumsiek, a McDonald's chef, puts a chicken on a tortilla to make a snack wrap at McDonald's Headquarter in Chicago, Thursday, May 29, 2025.":
+    - /url: /2025/06/03/business/the-mcdonalds-snack-wrap-is-returning-next-month
+    - img "Charles L. Krumsiek, a McDonald's chef, puts a chicken on a tortilla to make a snack wrap at McDonald's Headquarter in Chicago, Thursday, May 29, 2025."
+  - link "The McDonald’s Snack Wrap is returning next month":
+    - /url: /2025/06/03/business/the-mcdonalds-snack-wrap-is-returning-next-month
+  - link:
+    - /url: /2025/06/03/style/video/seven-year-itch-marilyn-monroe-dress-cprog-lon-digvid
+  - link "A subway breeze caught Marilyn Monroe’s dress 70 years ago. See how it made history 2:06":
+    - /url: /2025/06/03/style/video/seven-year-itch-marilyn-monroe-dress-cprog-lon-digvid
+  - link "Lost dog returns home after 100-mile journey":
+    - /url: /2025/06/03/uk/lost-dog-100-miles-gbr-scli-intl
+    - img "Lost dog returns home after 100-mile journey"
+  - link "Lost dog returns home after swimming to island in 100-mile trip":
+    - /url: /2025/06/03/uk/lost-dog-100-miles-gbr-scli-intl
+  - heading "For Subscribers" [level=2]
+  - link "Even as the overall jobs market looks relatively healthy, economists say this is the worst jobs market for new college graduates since the Covid-19 pandemic.":
+    - /url: /2025/06/02/business/jobs-market-college-graduate-economy
+    - img "Even as the overall jobs market looks relatively healthy, economists say this is the worst jobs market for new college graduates since the Covid-19 pandemic."
+  - 'link "No hire, no fire: The worst job market for grads in years"':
+    - /url: /2025/06/02/business/jobs-market-college-graduate-economy
+  - link "Eliana is now 3 years old and thriving.":
+    - /url: /2025/06/02/health/fish-skin-graft-preterm-baby-wellness
+    - img "Eliana is now 3 years old and thriving."
+  - 'link "Texas girl thriving after fish skin helped heal her wound as a preemie: ‘I call her my little mermaid’"':
+    - /url: /2025/06/02/health/fish-skin-graft-preterm-baby-wellness
+  - link "This summer has “sort of flipped itself on its head,” says one airfare expert. That means more deals than usual for the typically busy summer season.":
+    - /url: /2025/06/01/travel/summer-airfare-last-minute-deals
+    - img "This summer has “sort of flipped itself on its head,” says one airfare expert. That means more deals than usual for the typically busy summer season."
+  - link "Expert advice on how to take advantage of the ‘golden summer of cheap flights’":
+    - /url: /2025/06/01/travel/summer-airfare-last-minute-deals
+  - heading "CNN Underscored" [level=2]:
+    - link "CNN Underscored":
+      - /url: https://www.cnn.com/cnn-underscored
+  - heading "Best-in-class" [level=2]
+  - link "A light blue MacBook Air M4 is seen from behind with its lid open":
+    - /url: /cnn-underscored/deals/apple-macbook-air-m4-deals-2025-06-03
+    - img "A light blue MacBook Air M4 is seen from behind with its lid open"
+  - link "Now’s the perfect time to grab a MacBook Air M4 at its lowest price yet":
+    - /url: /cnn-underscored/deals/apple-macbook-air-m4-deals-2025-06-03
+  - link "A cooling blanket might be your ticket to better sleep. We rounded up 12, starting from $17":
+    - /url: /cnn-underscored/home/best-cooling-blankets
+  - link "We asked 6 expert gardeners to share their favorite gardening tools. Here’s what they recommend":
+    - /url: /cnn-underscored/home/the-best-garden-tools
+  - link "The 21 best exercise dresses keep you comfortable and stylish":
+    - /url: /cnn-underscored/fashion/best-exercise-dresses
+  - link "Don't get stuck in the storm. Here's everything you need to stay safe during hurricane season":
+    - /url: /cnn-underscored/home/hurricane-preparation-supplies
+  - link "Expert-backed guides":
+    - /url: We tested 10 Yeti coolers. These 3 are worth your money
+    - heading "Expert-backed guides" [level=2]:
+      - text: Expert-backed guides
+      - img
+  - link "Neutrogena Hydro Boost Hyaluronic Acid Serum":
+    - /url: /cnn-underscored/home/amazon-reader-favorites-may-2025
+    - img "Neutrogena Hydro Boost Hyaluronic Acid Serum"
+  - link "20 Amazon products our readers couldn’t stop buying in May":
+    - /url: /cnn-underscored/home/amazon-reader-favorites-may-2025
+  - link "Podiatrists think these are the best orthopedic shoes you can buy":
+    - /url: /cnn-underscored/health-fitness/best-orthopedic-shoes-for-foot-pain
+  - link "Under-eye patches are game changers for tired eyes. We tested to find the best ones":
+    - /url: /cnn-underscored/reviews/best-under-eye-patches
+  - link "72 Amazon gems that are small in size but big in impact":
+    - /url: /cnn-underscored/home/best-amazon-products-big-difference
+  - link "We put these hard-shell carry-on bags through rigorous testing. Here are the 3 that stood out from the rest":
+    - /url: /cnn-underscored/reviews/best-hard-shell-carry-on-luggage
+  - heading "Editors' picks" [level=2]
+  - link "best electric lawn mower ego power mower top":
+    - /url: /cnn-underscored/deals/ego-electric-lawn-mower-sale-2025-06-02
+    - img "best electric lawn mower ego power mower top"
+  - link "The lawn mower that won us over is nearly 50% off today":
+    - /url: /cnn-underscored/deals/ego-electric-lawn-mower-sale-2025-06-02
+  - link "Some pillows are a pain in the neck. Here are 4 that will help side sleepers get some rest":
+    - /url: /cnn-underscored/reviews/best-pillow-for-side-sleepers
+  - link "If there's one thing you should have in your home, it's a good flashlight. Here are 3 that are worth it":
+    - /url: /cnn-underscored/reviews/best-flashlight
+  - link "You need a good portable charger. Luckily, we found 3 that are worth your money":
+    - /url: /cnn-underscored/reviews/best-portable-charger
+  - link "Don’t travel without a good American Express credit card. Here are the best, according to a travel pro":
+    - /url: /cnn-underscored/money/best-american-express-credit-cards-amex
+  - link "Business":
+    - /url: https://www.cnn.com/business
+    - heading "Business" [level=2]:
+      - text: Business
+      - img
+  - link "A Dollar General store in Chicago, Illinois, seen on May 28, 2025.":
+    - /url: /2025/06/03/business/dollar-general-stock-economy-tariffs
+    - img "A Dollar General store in Chicago, Illinois, seen on May 28, 2025."
+  - link "Dollar General’s gain could be a warning for America’s economy":
+    - /url: /2025/06/03/business/dollar-general-stock-economy-tariffs
+  - 'link "Timeline: What to know about Trump’s global tariff rollout"':
+    - /url: /business/tariffs-trump-timeline-dg
+  - link "Trump’s tariff fallout is worse than previously thought, OECD says":
+    - /url: /2025/06/03/economy/oecd-economic-downgrade-trump-tariffs-intl
+  - link "Entertainment":
+    - /url: https://www.cnn.com/entertainment
+    - heading "Entertainment" [level=2]:
+      - text: Entertainment
+      - img
+  - 'link "MEXICO CITY, MEXICO - MAY 31: Vanessa Kirby attends the CCXP Mexico 2025 at Expo CitiBanamex on May 31, 2025 in Mexico City, Mexico. (Photo by Toya Sarno Jordan/Getty Images for Disney)"':
+    - /url: /2025/06/02/entertainment/vanessa-kirby-pregnancy-scli-intl
+    - 'img "MEXICO CITY, MEXICO - MAY 31: Vanessa Kirby attends the CCXP Mexico 2025 at Expo CitiBanamex on May 31, 2025 in Mexico City, Mexico. (Photo by Toya Sarno Jordan/Getty Images for Disney)"'
+  - link "Vanessa Kirby reveals pregnancy at ‘Fantastic Four’ red carpet event":
+    - /url: /2025/06/02/entertainment/vanessa-kirby-pregnancy-scli-intl
+  - link "‘Hacks’ creators talk Season 4’s ‘surreal’ cameos":
+    - /url: /2025/06/01/entertainment/hacks-paul-w-downs-cameos-studio
+  - link "Hailee Steinfeld marries Buffalo Bills QB Josh Allen":
+    - /url: /2025/06/01/entertainment/hailee-steinfeld-josh-allen-married
+  - link "Jason Sudeikis pays tribute to his late uncle, ‘Cheers’ star George Wendt":
+    - /url: /2025/06/02/entertainment/jason-sudeikis-george-wendt-tribute
+  - text: PAID PARTNER CONTENT
+  - link "Thousands flock to 0% APR offers lasting until nearly 2027 CardCritics":
+    - /url: https://cardcritics.com/pay-no-interest-on-balance-transfers/?tc=cnnrev-ac5-lp121-ci444-hl989-pc0-04172025&pub_adconcept=ac5&pub_image=ci444&pub_headline=hl989&pub_inventory=rr-85&costid=759&cbm=rs&ca=85&csd=20250417&hpt=ob_blogfooterold&obOrigUrl=true
+  - link "Hands down the best balance transfer card of the year CardCritics":
+    - /url: https://cardcritics.com/best-card-for-balance-transfers/?tc=cnnrev-ac1-lp93-ci633-hl414-pc0-04172025&pub_adconcept=ac1&pub_image=ci633&pub_headline=hl414&pub_inventory=rr-85&costid=759&cbm=rs&ca=85&csd=20250417&hpt=ob_blogfooterold&obOrigUrl=true
+  - link "Space and Science":
+    - /url: https://www.cnn.com/science
+    - heading "Space and Science" [level=2]:
+      - text: Space and Science
+      - img
+  - link "Yersinia pestis, formerly pasteurella pestis, Bacteria responsible for the plague. Seen under optical microscopy X 1000.":
+    - /url: /2025/06/03/science/plague-gene-evolution
+    - img "Yersinia pestis, formerly pasteurella pestis, Bacteria responsible for the plague. Seen under optical microscopy X 1000."
+  - link "One of the world’s most notorious pathogens has survived for centuries. Scientists say they now know why":
+    - /url: /2025/06/03/science/plague-gene-evolution
+  - link "Popular theory about our galaxy’s fate might be wrong, astronomers say":
+    - /url: /2025/06/02/science/milky-way-andromeda-galaxy-collision
+  - link "Deep-sea technology shows never-before-seen 108-year-old submarine wreckage 0:40":
+    - /url: /2025/06/02/science/video/wwi-era-submarine-wreckage-image-cprog-digvid
+  - link "Nearly 3,000-year-old Mayan complex discovered, featuring pyramids and canals":
+    - /url: /2025/05/30/science/mayan-complex-unearthed-guatemala-intl-hnk
+  - link "Travel":
+    - /url: https://www.cnn.com/travel
+    - heading "Travel" [level=2]:
+      - text: Travel
+      - img
+  - link "Photo-May-20-2025,-18-45-51.jpg":
+    - /url: /travel/airplane-facts-with-max-aircraft-mechanic-social-media
+    - img "Photo-May-20-2025,-18-45-51.jpg"
+  - link "Afraid of flying? This is the man you need to follow on social media":
+    - /url: /travel/airplane-facts-with-max-aircraft-mechanic-social-media
+  - link "More mega-sized cruise ships are heading for the oceans":
+    - /url: /2025/05/07/travel/mega-cruise-ships-coming-soon
+  - link "This California community is arguably the most famous ‘gayborhood’ in the US":
+    - /url: /travel/castro-san-francisco-lgbt-neighborhood
+  - link "Her boyfriend fell asleep. Then she spent the six-hour journey talking to another guy":
+    - /url: /travel/train-edinburgh-romance-chance-encounters
+  - link "Style":
+    - /url: https://www.cnn.com/style
+    - heading "Style" [level=2]:
+      - text: Style
+      - img
+  - link "Salma Hayek AMFAR Annual Cinema Against AIDS - 1999":
+    - /url: /2025/05/13/style/salma-hayek-cannes-blue-cardigan-remember-when
+    - img "Salma Hayek AMFAR Annual Cinema Against AIDS - 1999"
+  - link "Remember when Salma Hayek stepped out at Cannes with this risqué look?":
+    - /url: /2025/05/13/style/salma-hayek-cannes-blue-cardigan-remember-when
+  - link "25 years on, Patrick Bateman’s unsettling morning routine is normal":
+    - /url: /2025/04/15/style/american-psycho-morning-routine-25-years
+  - link "Miss Thailand crowned as Miss World 2025":
+    - /url: /2025/05/31/style/opal-suchata-chuangsri-miss-world-thailand-latam-intl
+  - link "‘Sex and the City’ dress has controversial origins":
+    - /url: /2025/05/30/style/christian-dior-newspaper-dress-sex-and-the-city
+  - link "Why you can’t buy a brand new Rolex at the store 3:07":
+    - /url: /2025/05/23/style/video/luxury-watch-price-investment-digvid-cprog
+  - heading "health and wellness" [level=2]
+  - link "Home, hands and old woman with coffee, window view and morning routine with retirement. Apartment, mature person and senior lady in lounge, espresso and resting with break, smiling and closeup":
+    - /url: /2025/06/02/health/coffee-longevity-women-study-wellness
+    - img "Home, hands and old woman with coffee, window view and morning routine with retirement. Apartment, mature person and senior lady in lounge, espresso and resting with break, smiling and closeup"
+  - link "Your coffee habit could be linked to healthier aging, study finds":
+    - /url: /2025/06/02/health/coffee-longevity-women-study-wellness
+  - link "What a urologist wants men to know about vasectomies":
+    - /url: /2025/06/01/health/vasectomy-urologist-explainer-wellness
+  - link "While you sleep, these bugs throw a party on your face":
+    - /url: /2025/05/30/health/demodex-mites-face-skin-sleep-wellness
+  - link "How to strengthen your body’s largest and most powerful muscle for pain-free movement":
+    - /url: /2025/05/29/health/glute-strength-chronic-pain-relief-wellness
+  - iframe
+  - link "More Politics":
+    - /url: https://www.cnn.com/politics
+    - heading "More Politics" [level=2]:
+      - text: More Politics
+      - img
+  - link "The official portraits of President Donald Trump and Vice President JD Vance hang in the Eisenhower Executive Office Building on the White House campus on June 2.":
+    - /url: /2025/06/03/politics/trump-new-official-portrait-white-house
+    - img "The official portraits of President Donald Trump and Vice President JD Vance hang in the Eisenhower Executive Office Building on the White House campus on June 2."
+  - link "What makes Trump’s new portrait different from his predecessors’":
+    - /url: /2025/06/03/politics/trump-new-official-portrait-white-house
+  - link "FEMA head told staff he was previously unaware US has hurricane season":
+    - /url: /2025/06/02/politics/david-richardson-fema-head-unaware-hurricane-season
+  - link "What are rare earth minerals, and why are they central to Trump’s trade war?":
+    - /url: /2025/06/03/business/rare-earths-us-china-trade-war-explainer
+  - 'link "Analysis: Putin didn’t budge in Ukraine peace talks. Now Donald Trump may be forced to act"':
+    - /url: /2025/06/02/europe/putin-ukraine-peace-talks-trump-latam-intl
+  - link "Andrew Cuomo campaigns for New York’s redemption – and his own":
+    - /url: /2025/06/03/politics/andrew-cuomo-new-york-mayor-comeback
+  - link "US":
+    - /url: https://www.cnn.com/us
+    - heading "US" [level=2]:
+      - text: US
+      - img
+  - link:
+    - /url: /2025/06/03/weather/canada-wildfire-smoke-sahara-dust-climate
+  - link "Smoke from Canadian wildfires pours south, but that isn’t the only thing millions will notice this week":
+    - /url: /2025/06/03/weather/canada-wildfire-smoke-sahara-dust-climate
+  - link "Prosecutors present fired investigator’s sexist texts in Karen Read’s retrial as defense chooses not to read them":
+    - /url: /2025/06/02/us/karen-read-trial-update
+  - link "American Olympic champion Gabby Thomas followed and heckled by gambler at Grand Slam Track meet":
+    - /url: /2025/06/03/sport/gabby-thomas-heckler-sports-betting-intl-spt
+  - link "Convicted double murderer who broke out of New Orleans jail boasted about his violence on social media":
+    - /url: /2025/06/03/us/derrick-groves-new-orleans-wwk
+  - link "World":
+    - /url: https://www.cnn.com/world
+    - heading "World" [level=2]:
+      - text: World
+      - img
+  - link "Geert Wilders speak with reporters in The Hague on June 3 as he withdraws his party from the Netherlands' governing coalition.":
+    - /url: /2025/06/03/europe/netherlands-government-collapse-geert-wilders-intl
+    - img "Geert Wilders speak with reporters in The Hague on June 3 as he withdraws his party from the Netherlands' governing coalition."
+  - link "Dutch government collapses as Wilders’ far-right party leaves coalition":
+    - /url: /2025/06/03/europe/netherlands-government-collapse-geert-wilders-intl
+  - link "Police combing ‘vast’ area of Portugal’s Algarve in Madeleine McCann case":
+    - /url: /2025/06/02/europe/madeleine-mccann-new-search-intl-latam
+  - link "South Korea’s opposition leader Lee wins election as ruling party’s Kim concedes":
+    - /url: /2025/06/03/asia/south-korea-presidential-election-results-intl-hnk
+  - link "Five killed in attack on UN food convoy heading to Sudan hunger hot spot, UN says":
+    - /url: /2025/06/03/africa/sudan-united-nations-convoy-attack-intl-latam
+  - link "Macron wax statue stolen from Paris museum for anti-Russian protest":
+    - /url: /2025/06/03/style/greenpeace-macron-statue-scli-intl
+  - link "CNN podcasts":
+    - /url: https://www.cnn.com/audio
+    - heading "CNN podcasts" [level=2]:
+      - text: CNN podcasts
+      - img
+  - link "01 teenager phone STOCK":
+    - /url: https://www.cnn.com/audio/podcasts/terms-of-service-with-clare-duffy/episodes/52665426-25e7-11f0-a31f-cb4b58fbfc7b
+    - img "01 teenager phone STOCK"
+  - link "How safe Is online gaming for kids? Roblox’s CEO has some thoughts":
+    - /url: https://www.cnn.com/audio/podcasts/terms-of-service-with-clare-duffy/episodes/52665426-25e7-11f0-a31f-cb4b58fbfc7b
+  - link "Billy Joel’s brain condition, explained":
+    - /url: https://www.cnn.com/audio/podcasts/chasing-life/episodes/99383e72-cd37-11ef-b277-afe31319767b
+  - link "Under RFK Jr.’s HHS, who decides the facts?":
+    - /url: https://www.cnn.com/audio/podcasts/one-thing/episodes/93d8648a-29c6-11ef-8cc2-13e77e54d109
+  - link "This rock band could play at a backyard near you":
+    - /url: https://www.cnn.com/audio/podcasts/5-good-things/episodes/afccd580-2fdf-11ef-89ae-3f847f3b5629
+  - 'link "‘Resist and reform’: Former Harvard president on Trump’s attacks"':
+    - /url: https://www.cnn.com/audio/podcasts/political-briefing/episodes/cbdd3372-cef0-11ef-bcce-f30176087e3b
+  - link "Sports":
+    - /url: https://bleacherreport.com/?utm_source=cnn.com&utm_medium=referral&utm_campaign=editorial
+    - heading "Sports" [level=2]:
+      - text: Sports
+      - img
+  - link "3-time olympic gold medalist Lilly King announces she'll retire after 2025 swim season":
+    - /url: https://bleacherreport.com/articles/25200902-3-time-olympic-gold-medalist-lilly-king-announces-shell-retire-after-2025-swim-season?utm_source=cnn.com&utm_medium=referral&utm_campaign=editorial
+    - img "3-time olympic gold medalist Lilly King announces she'll retire after 2025 swim season"
+  - link "3-time olympic gold medalist Lilly King announces she’ll retire after 2025 swim season":
+    - /url: https://bleacherreport.com/articles/25200902-3-time-olympic-gold-medalist-lilly-king-announces-shell-retire-after-2025-swim-season?utm_source=cnn.com&utm_medium=referral&utm_campaign=editorial
+  - link "Knicks fire Tom Thibodeau after team’s best playoff run in 25 years":
+    - /url: https://bleacherreport.com/articles/25201899-tom-thibodeau-fired-knicks-hc-after-2025-nba-playoff-loss-ecf?utm_source=cnn.com&utm_medium=referral&utm_campaign=editorial
+  - link "No Americans left in men’s singles at Roland-Garros":
+    - /url: https://bleacherreport.com/articles/25201684-french-open-2025-results-day-10-bracket-winners-losers-highlights-roland-garros?utm_source=cnn.com&utm_medium=referral&utm_campaign=editorial
+  - link "College baseball coach issues apology for anti-gay slur":
+    - /url: https://bleacherreport.com/articles/25201777-wake-forests-tom-walter-apologizes-after-apparent-use-anti-gay-slur-video?utm_source=cnn.com&utm_medium=referral&utm_campaign=editorial
+  - link "NBA releases Finals schedule":
+    - /url: https://bleacherreport.com/articles/25200340-2025-nba-finals-schedule-start-times-tv-info-thunder-vs-winner-knicks-pacers?utm_source=cnn.com&utm_medium=referral&utm_campaign=editorial
+  - heading "Video" [level=2]
+  - link "21673704 - RW MONROE DRESS 2025 THUMB.jpg 2:06":
+    - /url: /2025/06/03/style/video/seven-year-itch-marilyn-monroe-dress-cprog-lon-digvid
+    - img "21673704 - RW MONROE DRESS 2025 THUMB.jpg"
+    - text: 2:06
+  - link "70 years ago, ‘The Seven Year Itch’ cemented Marilyn Monroe as a Hollywood goddess. See how":
+    - /url: /2025/06/03/style/video/seven-year-itch-marilyn-monroe-dress-cprog-lon-digvid
+  - link "IA Floral Kingdom- Travel TN 6.png 2:32":
+    - /url: /2025/06/03/climate/video/cape-floral-kingdom-fire-biodiversity-spc-digvid
+    - img "IA Floral Kingdom- Travel TN 6.png"
+    - text: 2:32
+  - link "The Kingdom that burns to bloom":
+    - /url: /2025/06/03/climate/video/cape-floral-kingdom-fire-biodiversity-spc-digvid
+  - link "F-1 Highlights-new.mp4.00_02_22_18.Still001.jpg 0:40":
+    - /url: /2025/06/02/science/video/wwi-era-submarine-wreckage-image-cprog-digvid
+    - img "F-1 Highlights-new.mp4.00_02_22_18.Still001.jpg"
+    - text: 0:40
+  - link "Deep-sea technology shows never-before-seen 108-year-old submarine wreckage":
+    - /url: /2025/06/02/science/video/wwi-era-submarine-wreckage-image-cprog-digvid
+  - link "20250529_DRIVING_DROWSY_RANDI_KAYE_16x9_CARD_6.png 2:08":
+    - /url: /2025/05/31/health/video/drowsy-driving-dangers-prevention-wellness-digvid
+    - img "20250529_DRIVING_DROWSY_RANDI_KAYE_16x9_CARD_6.png"
+    - text: 2:08
+  - link "Blasting music doesn’t work. Here are 4 tips that do help if you’re tired but still have to drive":
+    - /url: /2025/05/31/health/video/drowsy-driving-dangers-prevention-wellness-digvid
+  - heading "Food and Home" [level=2]:
+    - link "Food and Home":
+      - /url: https://www.cnn.com/wbd/food-network
+  - link "All it takes is a few simple recipes (and a sunny day!) for laid-back barbecues and breezy alfresco family meals to come together with ease.":
+    - /url: /wbd/easy-grilling-recipes-to-keep-in-your-back-pocket
+    - img "All it takes is a few simple recipes (and a sunny day!) for laid-back barbecues and breezy alfresco family meals to come together with ease."
+  - link "Easy grilling recipes to keep in your back pocket":
+    - /url: /wbd/easy-grilling-recipes-to-keep-in-your-back-pocket
+  - link "FN_FNK-Veggie-Lovers-Club-Sandwich_s4x3.jpg":
+    - /url: /wbd/healthy-lunch-recipes-to-keep-you-full-until-dinner
+    - img "FN_FNK-Veggie-Lovers-Club-Sandwich_s4x3.jpg"
+  - link "Healthy lunch recipes to keep you full until dinner":
+    - /url: /wbd/healthy-lunch-recipes-to-keep-you-full-until-dinner
+  - link "Original_Emily-Fazio_Clean-House-Tips_run-dishwasher-nightly.jpg":
+    - /url: /wbd/30-things-you-dont-have-to-clean-as-often-as-you-think
+    - img "Original_Emily-Fazio_Clean-House-Tips_run-dishwasher-nightly.jpg"
+  - link "30 things you don’t have to clean as often as you think":
+    - /url: /wbd/30-things-you-dont-have-to-clean-as-often-as-you-think
+  - heading "Paid Content" [level=2]
+  - text: Paid Content Recommendations
+  - link "What is Outbrain?":
+    - /url: https://www.outbrain.com/what-is/default/en
+  - link "How Long Does $1M Last in Retirement? \"It may sound like a lot of money, but is $1 million really enough for a comfortable retirement?\" smartasset.com":
+    - /url: https://insights.smartasset.com/sem/how-long-will-1m-last-in-retirement?utm_source=outbrain&utm_campaign=out__falc_content_howlong1mill_allplatforms_tcpa_0625_100k_cnn&utm_term=&utm_content=0034e7078027293ef70b9d3c896d62ec4b&utm_id=&obOrigUrl=true
+  - 'link "Muscle After 60: It’s Not About Protein Alpha Health Secrets"':
+    - /url: https://alphahealthsecrets.com/defender/?utm_source=native&utm_medium=outbrain&utm_campaign=AHS%7CRON%7CDesktop%7CtCPA%7CNo+ShiftNews%7C115&utm_term=&utm_content=acquisition&utm_headline=Muscle+After+60%3A+It%E2%80%99s+Not+About+Protein&c=0068e20de4334763234b541bc8a8820675&p=&q=pub_&a=0022b3d1d353ef08c0edd49c39ba07dfe8&cc=&obclick-us=&utm_sec=&obOrigUrl=true
+  - link "Tired of Urinating Frequently at Night? This Might Be What You Need Discover The Results Mens Health":
+    - /url: "http://nat.wellnessgeniustips.com/zw47el137n/?aff_id=793&click_id=&af=793&cl=&utm_source=outbrain&utm_medium=&utm_campaign=00bbcb18d64dbb6e2ab230e8350e32d2b5&utm_term=&utm_content=00c0e4a8b8b606e7d1a9088e8d349efa1a&cwr=00bbcb18d64dbb6e2ab230e8350e32d2b5&cname=Zeriva+-+%5B1.8%5D%5BDesktop%5D%5BCPA%5D%5BNutraWL%5D%5B13-05%5D&publisher_id=&source_id=&publisher_name=&section=&domain={domain}&ad_id=00c0e4a8b8b606e7d1a9088e8d349efa1a&ad_title=Tired+of+Urinating+Frequently+at+Night%3F+This+Might+Be+What+You+Need&OutbrainClickId=&xid=5sl5v39w&obOrigUrl=true"
+  - link "A New $59 Smartwatch That Can Test Blood Sugar Painlessly Just in a Few Seconds Needle-Free & Pain-Free, How Is This New Wearable Device Revolutionizing Blood Sugar Monitoring In The US shirem.com":
+    - /url: https://tick.busterry.com/f094cc08-92b5-4875-b932-8ea0a811ffe8?campaign_id=007512bfa9685bd24245c969eb87b15c7b&publisher_id=&publisher_name=&ad_id=00820132820cf513b3ee33237118590b54&ad_title=A+New+%2459+Smartwatch+That+Can+Test+Blood+Sugar+Painlessly+Just+in+a+Few+Seconds&section_name=&req_id=&promoted_link_id=00820132820cf513b3ee33237118590b54&time_stamp=&campaign_name=cola_HH00504_colapacase_US_OB_ios_auto_2024082_Bess&ob_click_id=&obOrigUrl=true
+  - heading "More from CNN" [level=2]
+  - heading "Art and Style" [level=2]
+  - link "A neon sign titled \"Enjoy Yourself Tonight,\" by artist Jive Lau is seen in the Central district of Hong Kong, China, on Saturday.":
+    - /url: /style/jive-lau-artist-hong-kong-neon-heritage-hnk-spc
+    - img "A neon sign titled \"Enjoy Yourself Tonight,\" by artist Jive Lau is seen in the Central district of Hong Kong, China, on Saturday."
+  - link "This artist is keeping Hong Kong’s neon heritage alive":
+    - /url: /style/jive-lau-artist-hong-kong-neon-heritage-hnk-spc
+  - link "Rebecca Black at the 2025 American Music Awards held at the Fontainebleau Las Vegas on May 26, 2025 in Las Vegas, Nevada. (Photo by Christopher Polk/Penske Media via Getty Images)":
+    - /url: /2025/05/26/style/rebecca-black-amas-2025-lotw
+    - img "Rebecca Black at the 2025 American Music Awards held at the Fontainebleau Las Vegas on May 26, 2025 in Las Vegas, Nevada. (Photo by Christopher Polk/Penske Media via Getty Images)"
+  - 'link "Look of the Week: Rebecca Black dresses for a shotgun wedding at the AMAs in Vegas"':
+    - /url: /2025/05/26/style/rebecca-black-amas-2025-lotw
+  - link "asteroid city wes anderson scarlett johansson jason schwartzman jeffrey wright_00000000.png":
+    - /url: /2025/05/29/entertainment/video/anderson-intv-fst-290501pseg2-cnni-world-fast
+    - img "asteroid city wes anderson scarlett johansson jason schwartzman jeffrey wright_00000000.png"
+  - link "Renowned director Wes Anderson talks about his unique aesthetic 2:43":
+    - /url: /2025/05/29/entertainment/video/anderson-intv-fst-290501pseg2-cnni-world-fast
+  - heading "Remember When" [level=2]
+  - link "British fashion designer of Dior John Galliano, British fashion magazine editor Liz Tilberis, Lady Diana, Pricess of Wales, CEO of the French conglomerate LVMH Bernard Arnault and his wife Hélène Arnault, attend the 50th Anniversary of The House of Dior, (founded on December 16, 1946) at the Metropolitan Museum of Art, in New York. (Photo by Stephane Cardinale/Sygma via Getty Images)":
+    - /url: /2025/05/04/style/remember-when-princess-diana-met-ball
+    - img "British fashion designer of Dior John Galliano, British fashion magazine editor Liz Tilberis, Lady Diana, Pricess of Wales, CEO of the French conglomerate LVMH Bernard Arnault and his wife Hélène Arnault, attend the 50th Anniversary of The House of Dior, (founded on December 16, 1946) at the Metropolitan Museum of Art, in New York. (Photo by Stephane Cardinale/Sygma via Getty Images)"
+  - link "Remember when Princess Diana wowed the Met Gala in a risqué — and secretly altered — gown?":
+    - /url: /2025/05/04/style/remember-when-princess-diana-met-ball
+  - 'link "NEW YORK, NY - MAY 04: Rihanna attends the \"China: Through The Looking Glass\" Costume Institute Benefit Gala at the Metropolitan Museum of Art on May 4, 2015 in New York City. (Photo by Mike Coppola/Getty Images)"':
+    - /url: /2025/05/05/style/video/memorable-met-gala-moments-history-cprog-ldn-digivid
+    - 'img "NEW YORK, NY - MAY 04: Rihanna attends the \"China: Through The Looking Glass\" Costume Institute Benefit Gala at the Metropolitan Museum of Art on May 4, 2015 in New York City. (Photo by Mike Coppola/Getty Images)"'
+  - link "Why these Met Gala moments stand out in history 3:11":
+    - /url: /2025/05/05/style/video/memorable-met-gala-moments-history-cprog-ldn-digivid
+  - 'link "NEW YORK, NEW YORK - NOVEMBER 03: Sarah Jessica Parker is seen on the set of \"And Just Like That...\" Season 2 the follow up series to \"Sex and the City\" in the West Village on November 3, 2022 in New York City. (Photo by James Devaney/GC Images)"':
+    - /url: /2025/05/02/style/carrie-bradshaw-wedding-dress-met-ball
+    - 'img "NEW YORK, NEW YORK - NOVEMBER 03: Sarah Jessica Parker is seen on the set of \"And Just Like That...\" Season 2 the follow up series to \"Sex and the City\" in the West Village on November 3, 2022 in New York City. (Photo by James Devaney/GC Images)"'
+  - link "Remember when Carrie Bradshaw wore her wedding dress to the ‘Met Ball’?":
+    - /url: /2025/05/02/style/carrie-bradshaw-wedding-dress-met-ball
+  - heading "Photos" [level=2]:
+    - link "Photos":
+      - /url: https://www.cnn.com/world/photos
+  - link "01_DSC06839.jpg.jpg":
+    - /url: https://www.cnn.com/interactive/2025/05/world/sudan-civil-war-cnnphotos/
+    - img "01_DSC06839.jpg.jpg"
+  - link "What life is like in Sudan, where a devastating crisis has changed lives forever":
+    - /url: https://www.cnn.com/interactive/2025/05/world/sudan-civil-war-cnnphotos/
+  - link "Y. and her baby at home in Toughkenamon, Pa. on Apr. 15, 2024.":
+    - /url: https://www.cnn.com/interactive/2025/05/us/immigrant-mothers-cnnphotos-cec/
+    - img "Y. and her baby at home in Toughkenamon, Pa. on Apr. 15, 2024."
+  - link "A photographer followed moms through a dark time in their lives. She found something unexpected":
+    - /url: https://www.cnn.com/interactive/2025/05/us/immigrant-mothers-cnnphotos-cec/
+  - link "Vultures fly over the decomposed body of an animal, unseen, in Jammu, India, Tuesday, May 27, 2025. (AP Photo/Channi Anand) Will Gallery":
+    - /url: /2025/05/29/world/gallery/photos-this-week-may-22-may-29
+    - img "Vultures fly over the decomposed body of an animal, unseen, in Jammu, India, Tuesday, May 27, 2025. (AP Photo/Channi Anand) Will"
+    - text: Gallery
+  - link "The week in 37 photos":
+    - /url: /2025/05/29/world/gallery/photos-this-week-may-22-may-29
+  - link "Ningaloo reef off the western coast of Australia.":
+    - /url: https://www.cnn.com/interactive/2025/05/climate/ningaloo-reef-cnnphotos-c2e/
+    - img "Ningaloo reef off the western coast of Australia."
+  - link "This ancient Australian reef is sending a silent distress call":
+    - /url: https://www.cnn.com/interactive/2025/05/climate/ningaloo-reef-cnnphotos-c2e/
+  - heading "Paid Partner Content" [level=2]
+  - iframe
+  - text: DISTRO TV
+  - iframe
+  - 'link "DistroTV: Watch 270+ Live Streaming Channels All For Free"':
+    - /url: //i.jsrdn.com/i/1.gif?r=okqj&k=ZQljawlhCTIyNwlkCXVzLXdlc3QtMmQJaAlpLTBiMjliYTUxZGIxNjllNDRlCXUJZTg5OTljNWItNDU4Mi00ZmQzLTkzZDktZmI1ZGNmMWM1OTQ0CXYJYWU1ZTE5MjItNzcwYi00NWE1LThlNmQtY2U5NzAwNWUzYmJhCXN2CWpzcmRuCXZsCTIwMjUwNjAzLjIxMzAJdnQJMjAyNTA2MDMuMjEzMAl2cwkyMDI0MDgzMQl2YwkyMDI1MDYwMwlzdAkyMDI1MDYwMy4yMTUyMDYJaQkyNGUxNDZiOS1kMDM1LTQ0YzYtOWQ1NS0zZDMyNzNkMDhmYTYJZglodHRwczovL3d3dy5jbm4uY29tLwlxCTdmMjk4YmU3LWI2MWMtNDVkNC04NzNjLTk0ZThjZjI3ZWE4MAltCTIyMzQyCWIJMjYyCWcJNDEwCXQJNjE0OQljCTYyMDUJbAkyMDk1Nwl6CTIwMDA0CXMJNzA2MAlwCTIzMDUzCXcJZW50ZXJ0YWlubWVudAljcwlJQUIxCWN6CQlnYwlVUwlncglXQQlndAlyZWRtb25kCWdkCTgxOQlnbglDYWJsZS9EU0wJbmUJaXYJbmQJaXYJc2QJY25uLmNvbQlzZQkxMzY5NzIwNDAzCW1jCTg2NjM0NzcJbmYJaXYJcXAJNTAJcXQJMjUwMAlwbgk0NTA5CXZuCTMyNDQwMDgJaHYJMQ&fwd=%2F%2Fwww.distro.tv%2F%3Futm_source%3Ddstream%26utm_medium%3Dcnnbin%26utm_content%3Dtitle%26utm_campaign%3Ddtv_cnn_home
+  - link "DistroTV is the best FREE independent streaming television service":
+    - /url: //i.jsrdn.com/i/1.gif?r=sams&k=ZQljawlhCTIyNwlkCXVzLXdlc3QtMmQJaAlpLTBiMjliYTUxZGIxNjllNDRlCXUJZTg5OTljNWItNDU4Mi00ZmQzLTkzZDktZmI1ZGNmMWM1OTQ0CXYJYWU1ZTE5MjItNzcwYi00NWE1LThlNmQtY2U5NzAwNWUzYmJhCXN2CWpzcmRuCXZsCTIwMjUwNjAzLjIxMzAJdnQJMjAyNTA2MDMuMjEzMAl2cwkyMDI0MDgzMQl2YwkyMDI1MDYwMwlzdAkyMDI1MDYwMy4yMTUyMDYJaQkyNGUxNDZiOS1kMDM1LTQ0YzYtOWQ1NS0zZDMyNzNkMDhmYTYJZglodHRwczovL3d3dy5jbm4uY29tLwlxCTdmMjk4YmU3LWI2MWMtNDVkNC04NzNjLTk0ZThjZjI3ZWE4MAltCTIyMzQyCWIJMjYyCWcJNDEwCXQJNjE0OQljCTYyMDUJbAkyMDk1Nwl6CTIwMDA0CXMJNzA2MAlwCTIzMDUzCXcJZW50ZXJ0YWlubWVudAljcwlJQUIxCWN6CQlnYwlVUwlncglXQQlndAlyZWRtb25kCWdkCTgxOQlnbglDYWJsZS9EU0wJbmUJaXYJbmQJaXYJc2QJY25uLmNvbQlzZQkxMzY5NzIwNDAzCW1jCTg2NjM0NzcJbmYJaXYJcXAJNTAJcXQJMjUwMAlwbgk0NTA5CXZuCTMyNDQwMDgJaHYJMQ&fwd=https%3A%2F%2Fwww.distro.tv%2F%3Futm_source%3Ddstream%26utm_medium%3Dcnnbin%26utm_content%3Dhl2%26utm_campaign%3Ddtv_cnn_home
+  - 'link "270+ FREE live streaming channels: Entertainment, Sports, Movies, Music & More"':
+    - /url: //i.jsrdn.com/i/1.gif?r=6vnj&k=ZQljawlhCTIyNwlkCXVzLXdlc3QtMmQJaAlpLTBiMjliYTUxZGIxNjllNDRlCXUJZTg5OTljNWItNDU4Mi00ZmQzLTkzZDktZmI1ZGNmMWM1OTQ0CXYJYWU1ZTE5MjItNzcwYi00NWE1LThlNmQtY2U5NzAwNWUzYmJhCXN2CWpzcmRuCXZsCTIwMjUwNjAzLjIxMzAJdnQJMjAyNTA2MDMuMjEzMAl2cwkyMDI0MDgzMQl2YwkyMDI1MDYwMwlzdAkyMDI1MDYwMy4yMTUyMDYJaQkyNGUxNDZiOS1kMDM1LTQ0YzYtOWQ1NS0zZDMyNzNkMDhmYTYJZglodHRwczovL3d3dy5jbm4uY29tLwlxCTdmMjk4YmU3LWI2MWMtNDVkNC04NzNjLTk0ZThjZjI3ZWE4MAltCTIyMzQyCWIJMjYyCWcJNDEwCXQJNjE0OQljCTYyMDUJbAkyMDk1Nwl6CTIwMDA0CXMJNzA2MAlwCTIzMDUzCXcJZW50ZXJ0YWlubWVudAljcwlJQUIxCWN6CQlnYwlVUwlncglXQQlndAlyZWRtb25kCWdkCTgxOQlnbglDYWJsZS9EU0wJbmUJaXYJbmQJaXYJc2QJY25uLmNvbQlzZQkxMzY5NzIwNDAzCW1jCTg2NjM0NzcJbmYJaXYJcXAJNTAJcXQJMjUwMAlwbgk0NTA5CXZuCTMyNDQwMDgJaHYJMQ&fwd=https%3A%2F%2Fwww.distro.tv%2F%3Futm_source%3Ddstream%26utm_medium%3Dcnnbin%26utm_content%3Dhl3%26utm_campaign%3Ddtv_cnn_home
+  - link "No sign up. No registration. No credit cards. Just watch for FREE":
+    - /url: //i.jsrdn.com/i/1.gif?r=pdo9&k=ZQljawlhCTIyNwlkCXVzLXdlc3QtMmQJaAlpLTBiMjliYTUxZGIxNjllNDRlCXUJZTg5OTljNWItNDU4Mi00ZmQzLTkzZDktZmI1ZGNmMWM1OTQ0CXYJYWU1ZTE5MjItNzcwYi00NWE1LThlNmQtY2U5NzAwNWUzYmJhCXN2CWpzcmRuCXZsCTIwMjUwNjAzLjIxMzAJdnQJMjAyNTA2MDMuMjEzMAl2cwkyMDI0MDgzMQl2YwkyMDI1MDYwMwlzdAkyMDI1MDYwMy4yMTUyMDYJaQkyNGUxNDZiOS1kMDM1LTQ0YzYtOWQ1NS0zZDMyNzNkMDhmYTYJZglodHRwczovL3d3dy5jbm4uY29tLwlxCTdmMjk4YmU3LWI2MWMtNDVkNC04NzNjLTk0ZThjZjI3ZWE4MAltCTIyMzQyCWIJMjYyCWcJNDEwCXQJNjE0OQljCTYyMDUJbAkyMDk1Nwl6CTIwMDA0CXMJNzA2MAlwCTIzMDUzCXcJZW50ZXJ0YWlubWVudAljcwlJQUIxCWN6CQlnYwlVUwlncglXQQlndAlyZWRtb25kCWdkCTgxOQlnbglDYWJsZS9EU0wJbmUJaXYJbmQJaXYJc2QJY25uLmNvbQlzZQkxMzY5NzIwNDAzCW1jCTg2NjM0NzcJbmYJaXYJcXAJNTAJcXQJMjUwMAlwbgk0NTA5CXZuCTMyNDQwMDgJaHYJMQ&fwd=https%3A%2F%2Fwww.distro.tv%2F%3Futm_source%3Ddstream%26utm_medium%3Dcnnbin%26utm_content%3Dhl4%26utm_campaign%3Ddtv_cnn_home
+  - link "Tracker DistroScale Logo":
+    - /url: //i.jsrdn.com/i/1.gif?r=8a8y&k=ZQljawlhCTIyNwlkCXVzLXdlc3QtMmQJaAlpLTBiMjliYTUxZGIxNjllNDRlCXUJZTg5OTljNWItNDU4Mi00ZmQzLTkzZDktZmI1ZGNmMWM1OTQ0CXYJYWU1ZTE5MjItNzcwYi00NWE1LThlNmQtY2U5NzAwNWUzYmJhCXN2CWpzcmRuCXZsCTIwMjUwNjAzLjIxMzAJdnQJMjAyNTA2MDMuMjEzMAl2cwkyMDI0MDgzMQl2YwkyMDI1MDYwMwlzdAkyMDI1MDYwMy4yMTUyMDYJaQkyNGUxNDZiOS1kMDM1LTQ0YzYtOWQ1NS0zZDMyNzNkMDhmYTYJZglodHRwczovL3d3dy5jbm4uY29tLwlxCTdmMjk4YmU3LWI2MWMtNDVkNC04NzNjLTk0ZThjZjI3ZWE4MAltCTIyMzQyCWIJMjYyCWcJNDEwCXQJNjE0OQljCTYyMDUJbAkyMDk1Nwl6CTIwMDA0CXMJNzA2MAlwCTIzMDUzCXcJZW50ZXJ0YWlubWVudAljcwlJQUIxCWN6CQlnYwlVUwlncglXQQlndAlyZWRtb25kCWdkCTgxOQlnbglDYWJsZS9EU0wJbmUJaXYJbmQJaXYJc2QJY25uLmNvbQlzZQkxMzY5NzIwNDAzCW1jCTg2NjM0NzcJbmYJaXYJcXAJNTAJcXQJMjUwMAlwbgk0NTA5CXZuCTMyNDQwMDgJaHYJMQ&fwd=https%3A%2F%2Fwww.distro.tv%2F%3Futm_source%3Ddstream%26utm_medium%3Dchiclet%26utm_content%3Dchiclet%26utm_campaign%3Ddtv_cnn_home
+    - img "Tracker"
+    - img "DistroScale Logo"
+  - iframe
+  - link "CNN Games + Quizzes":
+    - /url: https://www.cnn.com/games?utm_source=games_acq_web_homepage_morezone
+    - heading "CNN Games + Quizzes" [level=2]:
+      - text: CNN Games + Quizzes
+      - img
+  - link "CNN Games card_Crossword.jpg Today's crossword":
+    - /url: https://www.cnn.com/games/play/daily-crossword?utm_source=games_acq_web_homepage_morezone
+    - img "CNN Games card_Crossword.jpg"
+    - text: Today's crossword
+  - link "No pencil or eraser required":
+    - /url: https://www.cnn.com/games/play/daily-crossword?utm_source=games_acq_web_homepage_morezone
+  - link "CNN Games card_Sudoblock.jpg Sudoblock":
+    - /url: https://www.cnn.com/games/play/sudoblock?utm_source=games_acq_web_homepage_morezone
+    - img "CNN Games card_Sudoblock.jpg"
+    - text: Sudoblock
+  - link "Sudoku + Blocks = addictive tile-matching puzzle":
+    - /url: https://www.cnn.com/games/play/sudoblock?utm_source=games_acq_web_homepage_morezone
+  - link "CNN Games card_JumbleCrossword.jpg Jumble Crossword":
+    - /url: https://www.cnn.com/games/play/jumble-crossword-daily
+    - img "CNN Games card_JumbleCrossword.jpg"
+    - text: Jumble Crossword
+  - link "Test your smarts with this scrambled word game":
+    - /url: https://www.cnn.com/games/play/jumble-crossword-daily
+  - link "CNN Games-card-02.jpg Weekly news quiz":
+    - /url: https://cnn.it/5thingsquiz?utm_source=games_acq_web_homepage_morezone
+    - img "CNN Games-card-02.jpg"
+    - text: Weekly news quiz
+  - link "What do you remember from the week that was?":
+    - /url: https://cnn.it/5thingsquiz?utm_source=games_acq_web_homepage_morezone
+  - heading "In case you missed it" [level=2]
+  - 'link "Respectable without receptacles: Japan maintains cleanliness despite a lack of public trash cans. Philip Fong/AFP/Getty Images"':
+    - /url: /travel/japan-trash-cans-explainer-intl-hnk
+    - 'img "Respectable without receptacles: Japan maintains cleanliness despite a lack of public trash cans."'
+    - text: Philip Fong/AFP/Getty Images
+  - link "The trashy issue that has tourists in Japan so confused":
+    - /url: /travel/japan-trash-cans-explainer-intl-hnk
+  - link "These Americans are done with Trump. So they’re moving":
+    - /url: /2025/06/03/business/americans-leaving-us-trump-intl
+  - link "Gene mutation found in the bacterium behind the Black Death helped plague conquer the world, scientists say":
+    - /url: /2025/06/03/science/plague-gene-evolution
+  - link "Peru’s plan to drastically reduce Nazca Lines park size sparks concerns over environmental and heritage risks":
+    - /url: /2025/06/03/americas/peru-nazca-lines-park-environmental-risk-intl-hnk
+  - link "The ‘r-word’ is back. How a slur became renormalized":
+    - /url: /2025/05/31/us/r-word-slur-comeback-cec
+  - link "How protests over designer handbags threw Mongolia into political crisis and sparked a PM’s resignation":
+    - /url: /2025/06/02/asia/mongolia-political-crisis-protests-intl-hnk
+  - link "MIT class president banned from graduation ceremony after speech denouncing war in Gaza":
+    - /url: /2025/06/01/us/mit-graduation-palestine-megha-vemuri
+  - link "Asian painters were ‘othered’ in Paris a century ago. Now, the art world is taking note":
+    - /url: /2025/06/01/style/asian-artists-paris-city-of-others-singapore
+- contentinfo:
+  - search:
+    - textbox "Search"
+    - button "Submit"
+  - navigation:
+    - list:
+      - listitem:
+        - link "US":
+          - /url: https://www.cnn.com/us
+        - list:
+          - listitem:
+            - link "US Crime + Justice":
+              - /url: https://www.cnn.com/us/crime-and-justice
+              - text: Crime + Justice
+      - listitem:
+        - link "World":
+          - /url: https://www.cnn.com/world
+        - list:
+          - listitem:
+            - link "World Africa":
+              - /url: https://www.cnn.com/world/africa
+              - text: Africa
+          - listitem:
+            - link "World Americas":
+              - /url: https://www.cnn.com/world/americas
+              - text: Americas
+          - listitem:
+            - link "World Asia":
+              - /url: https://www.cnn.com/world/asia
+              - text: Asia
+          - listitem:
+            - link "World Australia":
+              - /url: https://www.cnn.com/world/australia
+              - text: Australia
+          - listitem:
+            - link "World China":
+              - /url: https://www.cnn.com/world/china
+              - text: China
+          - listitem:
+            - link "World Europe":
+              - /url: https://www.cnn.com/world/europe
+              - text: Europe
+          - listitem:
+            - link "World India":
+              - /url: https://www.cnn.com/world/india
+              - text: India
+          - listitem:
+            - link "World Middle East":
+              - /url: https://www.cnn.com/world/middle-east
+              - text: Middle East
+          - listitem:
+            - link "World United Kingdom":
+              - /url: https://www.cnn.com/world/united-kingdom
+              - text: United Kingdom
+      - listitem:
+        - link "Politics":
+          - /url: https://www.cnn.com/politics
+        - list:
+          - listitem:
+            - link "Politics Trump":
+              - /url: https://www.cnn.com/politics/president-donald-trump-47
+              - text: Trump
+          - listitem:
+            - link "Politics Facts First":
+              - /url: https://www.cnn.com/politics/fact-check
+              - text: Facts First
+          - listitem:
+            - link "Politics CNN Polls":
+              - /url: https://www.cnn.com/polling
+              - text: CNN Polls
+          - listitem:
+            - link "Politics 2025 Elections":
+              - /url: https://www.cnn.com/election/2025
+              - text: 2025 Elections
+      - listitem:
+        - link "Business":
+          - /url: https://www.cnn.com/business
+        - list:
+          - listitem:
+            - link "Business Tech":
+              - /url: https://www.cnn.com/business/tech
+              - text: Tech
+          - listitem:
+            - link "Business Media":
+              - /url: https://www.cnn.com/business/media
+              - text: Media
+          - listitem:
+            - link "Business Calculators":
+              - /url: https://www.cnn.com/business/financial-calculators
+              - text: Calculators
+          - listitem:
+            - link "Business Videos":
+              - /url: https://www.cnn.com/business/videos
+              - text: Videos
+      - listitem:
+        - link "Markets":
+          - /url: https://www.cnn.com/markets
+        - list:
+          - listitem:
+            - link "Markets Pre-markets":
+              - /url: https://www.cnn.com/markets/premarkets
+              - text: Pre-markets
+          - listitem:
+            - link "Markets After-Hours":
+              - /url: https://www.cnn.com/markets/after-hours
+              - text: After-Hours
+          - listitem:
+            - link "Markets Fear & Greed":
+              - /url: https://www.cnn.com/markets/fear-and-greed
+              - text: Fear & Greed
+          - listitem:
+            - link "Markets Investing":
+              - /url: https://www.cnn.com/business/investing
+              - text: Investing
+          - listitem:
+            - link "Markets Markets Now":
+              - /url: https://www.cnn.com/business/markets-now
+              - text: Markets Now
+          - listitem:
+            - link "Markets Nightcap":
+              - /url: https://www.cnn.com/business/markets/nightcap
+              - text: Nightcap
+      - listitem:
+        - link "Health":
+          - /url: https://www.cnn.com/health
+        - list:
+          - listitem:
+            - link "Health Life, But Better":
+              - /url: https://www.cnn.com/interactive/life-but-better/
+              - text: Life, But Better
+          - listitem:
+            - link "Health Fitness":
+              - /url: https://www.cnn.com/health/life-but-better/fitness
+              - text: Fitness
+          - listitem:
+            - link "Health Food":
+              - /url: https://www.cnn.com/health/life-but-better/food
+              - text: Food
+          - listitem:
+            - link "Health Sleep":
+              - /url: https://www.cnn.com/health/life-but-better/sleep
+              - text: Sleep
+          - listitem:
+            - link "Health Mindfulness":
+              - /url: https://www.cnn.com/health/life-but-better/mindfulness
+              - text: Mindfulness
+          - listitem:
+            - link "Health Relationships":
+              - /url: https://www.cnn.com/health/life-but-better/relationships
+              - text: Relationships
+      - listitem:
+        - link "Entertainment":
+          - /url: https://www.cnn.com/entertainment
+        - list:
+          - listitem:
+            - link "Entertainment Movies":
+              - /url: https://www.cnn.com/entertainment/movies
+              - text: Movies
+          - listitem:
+            - link "Entertainment Television":
+              - /url: https://www.cnn.com/entertainment/tv-shows
+              - text: Television
+          - listitem:
+            - link "Entertainment Celebrity":
+              - /url: https://www.cnn.com/entertainment/celebrities
+              - text: Celebrity
+      - listitem:
+        - link "Tech":
+          - /url: https://www.cnn.com/business/tech
+        - list:
+          - listitem:
+            - link "Tech Innovate":
+              - /url: https://www.cnn.com/business/tech/innovate
+              - text: Innovate
+          - listitem:
+            - link "Tech Foreseeable Future":
+              - /url: https://www.cnn.com/business/tech/foreseeable-future
+              - text: Foreseeable Future
+          - listitem:
+            - 'link "Tech Mission: Ahead"':
+              - /url: https://www.cnn.com/business/tech/mission-ahead
+              - text: "Mission: Ahead"
+          - listitem:
+            - link "Tech Work Transformed":
+              - /url: https://www.cnn.com/business/work-transformed
+              - text: Work Transformed
+          - listitem:
+            - link "Tech Innovative Cities":
+              - /url: https://www.cnn.com/business/tech/innovative-cities
+              - text: Innovative Cities
+      - listitem:
+        - link "Style":
+          - /url: https://www.cnn.com/style
+        - list:
+          - listitem:
+            - link "Style Arts":
+              - /url: https://www.cnn.com/style/arts
+              - text: Arts
+          - listitem:
+            - link "Style Design":
+              - /url: https://www.cnn.com/style/design
+              - text: Design
+          - listitem:
+            - link "Style Fashion":
+              - /url: https://www.cnn.com/style/fashion
+              - text: Fashion
+          - listitem:
+            - link "Style Architecture":
+              - /url: https://www.cnn.com/style/architecture
+              - text: Architecture
+          - listitem:
+            - link "Style Luxury":
+              - /url: https://www.cnn.com/style/luxury
+              - text: Luxury
+          - listitem:
+            - link "Style Beauty":
+              - /url: https://www.cnn.com/style/beauty
+              - text: Beauty
+          - listitem:
+            - link "Style Video":
+              - /url: https://www.cnn.com/style/videos
+              - text: Video
+      - listitem:
+        - link "Travel":
+          - /url: https://www.cnn.com/travel
+        - list:
+          - listitem:
+            - link "Travel Destinations":
+              - /url: https://www.cnn.com/travel/destinations
+              - text: Destinations
+          - listitem:
+            - link "Travel Food & Drink":
+              - /url: https://www.cnn.com/travel/food-and-drink
+              - text: Food & Drink
+          - listitem:
+            - link "Travel Stay":
+              - /url: https://www.cnn.com/travel/stay
+              - text: Stay
+          - listitem:
+            - link "Travel News":
+              - /url: https://www.cnn.com/travel/news
+              - text: News
+          - listitem:
+            - link "Travel Videos":
+              - /url: https://www.cnn.com/travel/videos
+              - text: Videos
+      - listitem:
+        - link "Sports":
+          - /url: https://www.cnn.com/sports
+        - list:
+          - listitem:
+            - link "Sports Pro Football":
+              - /url: https://bleacherreport.com/nfl
+              - text: Pro Football
+          - listitem:
+            - link "Sports College Football":
+              - /url: https://bleacherreport.com/college-football
+              - text: College Football
+          - listitem:
+            - link "Sports Basketball":
+              - /url: https://bleacherreport.com/nba
+              - text: Basketball
+          - listitem:
+            - link "Sports Baseball":
+              - /url: https://bleacherreport.com/mlb
+              - text: Baseball
+          - listitem:
+            - link "Sports Soccer":
+              - /url: https://bleacherreport.com/world-football
+              - text: Soccer
+          - listitem:
+            - link "Sports Olympics":
+              - /url: https://www.cnn.com/sport/paris-olympics-2024
+              - text: Olympics
+          - listitem:
+            - link "Sports Hockey":
+              - /url: https://bleacherreport.com/nhl
+              - text: Hockey
+      - listitem:
+        - link "Science":
+          - /url: https://www.cnn.com/science
+        - list:
+          - listitem:
+            - link "Science Space":
+              - /url: https://www.cnn.com/science/space
+              - text: Space
+          - listitem:
+            - link "Science Life":
+              - /url: https://www.cnn.com/science/life
+              - text: Life
+          - listitem:
+            - link "Science Unearthed":
+              - /url: https://www.cnn.com/science/unearthed
+              - text: Unearthed
+      - listitem:
+        - link "Climate":
+          - /url: https://www.cnn.com/climate
+        - list:
+          - listitem:
+            - link "Climate Solutions":
+              - /url: https://www.cnn.com/climate/solutions
+              - text: Solutions
+          - listitem:
+            - link "Climate Weather":
+              - /url: https://www.cnn.com/weather
+              - text: Weather
+      - listitem:
+        - link "Weather":
+          - /url: https://www.cnn.com/weather
+        - list:
+          - listitem:
+            - link "Weather Video":
+              - /url: https://www.cnn.com/weather/video
+              - text: Video
+          - listitem:
+            - link "Weather Climate":
+              - /url: https://www.cnn.com/climate
+              - text: Climate
+      - listitem:
+        - link "Ukraine-Russia War":
+          - /url: https://www.cnn.com/world/europe/ukraine
+        - list
+      - listitem:
+        - link "Israel-Hamas War":
+          - /url: https://www.cnn.com/world/middleeast/israel
+        - list
+      - listitem:
+        - link "Watch":
+          - /url: https://www.cnn.com/videos
+        - list:
+          - listitem:
+            - link "Watch Live TV":
+              - /url: https://www.cnn.com/live-tv
+              - text: Live TV
+          - listitem:
+            - link "Watch CNN Headlines":
+              - /url: https://www.cnn.com/videos/fast/cnn-headlines
+              - text: CNN Headlines
+          - listitem:
+            - link "Watch CNN Shorts":
+              - /url: https://www.cnn.com/shorts/cnn-shorts
+              - text: CNN Shorts
+          - listitem:
+            - link "Watch Shows A-Z":
+              - /url: https://www.cnn.com/specials/tv/all-shows
+              - text: Shows A-Z
+          - listitem:
+            - link "Watch CNN10":
+              - /url: https://www.cnn.com/cnn10
+              - text: CNN10
+          - listitem:
+            - link "Watch CNN Max":
+              - /url: https://www.max.com/channel/cnn-max
+              - text: CNN Max
+          - listitem:
+            - link "Watch CNN TV Schedules":
+              - /url: https://www.cnn.com/tv/schedule/cnn
+              - text: CNN TV Schedules
+          - listitem:
+            - link "Watch FlashDocs":
+              - /url: https://www.cnn.com/subscription/video/flashdocs/library
+              - text: FlashDocs
+      - listitem:
+        - link "Listen":
+          - /url: https://www.cnn.com/audio
+        - list:
+          - listitem:
+            - link "Listen CNN 5 Things":
+              - /url: https://www.cnn.com/audio/podcasts/5-things
+              - text: CNN 5 Things
+          - listitem:
+            - link "Listen Chasing Life with Dr. Sanjay Gupta":
+              - /url: https://www.cnn.com/audio/podcasts/chasing-life
+              - text: Chasing Life with Dr. Sanjay Gupta
+          - listitem:
+            - link "Listen The Assignment with Audie Cornish":
+              - /url: https://www.cnn.com/audio/podcasts/the-assignment
+              - text: The Assignment with Audie Cornish
+          - listitem:
+            - link "Listen One Thing":
+              - /url: https://www.cnn.com/audio/podcasts/one-thing
+              - text: One Thing
+          - listitem:
+            - link "Listen Tug of War":
+              - /url: https://www.cnn.com/audio/podcasts/tug-of-war
+              - text: Tug of War
+          - listitem:
+            - link "Listen CNN Political Briefing":
+              - /url: https://www.cnn.com/audio/podcasts/political-briefing
+              - text: CNN Political Briefing
+          - listitem:
+            - link "Listen The Axe Files":
+              - /url: https://www.cnn.com/audio/podcasts/axe-files
+              - text: The Axe Files
+          - listitem:
+            - link "Listen All There Is with Anderson Cooper":
+              - /url: https://www.cnn.com/audio/podcasts/all-there-is-with-anderson-cooper
+              - text: All There Is with Anderson Cooper
+          - listitem:
+            - link "Listen All CNN Audio podcasts":
+              - /url: https://www.cnn.com/audio
+              - text: All CNN Audio podcasts
+      - listitem:
+        - link "CNN Underscored":
+          - /url: https://www.cnn.com/cnn-underscored
+        - list:
+          - listitem:
+            - link "CNN Underscored Electronics":
+              - /url: https://www.cnn.com/cnn-underscored/electronics
+              - text: Electronics
+          - listitem:
+            - link "CNN Underscored Fashion":
+              - /url: https://www.cnn.com/cnn-underscored/fashion
+              - text: Fashion
+          - listitem:
+            - link "CNN Underscored Beauty":
+              - /url: https://www.cnn.com/cnn-underscored/beauty
+              - text: Beauty
+          - listitem:
+            - link "CNN Underscored Health & Fitness":
+              - /url: https://www.cnn.com/cnn-underscored/health-fitness
+              - text: Health & Fitness
+          - listitem:
+            - link "CNN Underscored Home":
+              - /url: https://www.cnn.com/cnn-underscored/home
+              - text: Home
+          - listitem:
+            - link "CNN Underscored Reviews":
+              - /url: https://www.cnn.com/cnn-underscored/reviews
+              - text: Reviews
+          - listitem:
+            - link "CNN Underscored Deals":
+              - /url: https://www.cnn.com/cnn-underscored/deals
+              - text: Deals
+          - listitem:
+            - link "CNN Underscored Gifts":
+              - /url: https://www.cnn.com/cnn-underscored/gifts
+              - text: Gifts
+          - listitem:
+            - link "CNN Underscored Travel":
+              - /url: https://www.cnn.com/cnn-underscored/travel
+              - text: Travel
+          - listitem:
+            - link "CNN Underscored Outdoors":
+              - /url: https://www.cnn.com/cnn-underscored/outdoors
+              - text: Outdoors
+          - listitem:
+            - link "CNN Underscored Pets":
+              - /url: https://www.cnn.com/cnn-underscored/pets
+              - text: Pets
+      - listitem:
+        - link "Games":
+          - /url: https://www.cnn.com/games
+        - list:
+          - listitem:
+            - link "Games Daily Crossword":
+              - /url: https://www.cnn.com/games/play/cnn-crossword
+              - text: Daily Crossword
+          - listitem:
+            - link "Games Jumble Crossword":
+              - /url: https://www.cnn.com/games/play/jumble-crossword-daily
+              - text: Jumble Crossword
+          - listitem:
+            - link "Games Sudoblock":
+              - /url: https://www.cnn.com/games/play/sudoblock
+              - text: Sudoblock
+          - listitem:
+            - link "Games Sudoku":
+              - /url: https://www.cnn.com/games/play/gd-sudoku-a197ee3904d04e9d8b64dcd9fa3ace63
+              - text: Sudoku
+          - listitem:
+            - link "Games 5 Things Quiz":
+              - /url: https://cnn.it/5thingsquiz
+              - text: 5 Things Quiz
+      - listitem:
+        - link "About CNN":
+          - /url: https://www.cnn.com/about
+        - list:
+          - listitem:
+            - link "About CNN Subscribe":
+              - /url: https://www.cnn.com/subscription?source=sub_web_footersubnav-link
+              - text: Subscribe
+          - listitem:
+            - link "About CNN Photos":
+              - /url: https://www.cnn.com/world/photos
+              - text: Photos
+          - listitem:
+            - link "About CNN Investigations":
+              - /url: https://www.cnn.com/us/cnn-investigates
+              - text: Investigations
+          - listitem:
+            - link "About CNN CNN Profiles":
+              - /url: https://www.cnn.com/profiles
+              - text: CNN Profiles
+          - listitem:
+            - link "About CNN CNN Leadership":
+              - /url: https://www.cnn.com/profiles/cnn-leadership
+              - text: CNN Leadership
+          - listitem:
+            - link "About CNN CNN Newsletters":
+              - /url: https://www.cnn.com/newsletters
+              - text: CNN Newsletters
+          - listitem:
+            - link "About CNN Work for CNN":
+              - /url: https://careers.wbd.com/cnnjobs
+              - text: Work for CNN
+  - separator
+  - link "CNN logo":
+    - /url: https://www.cnn.com
+    - img
+  - link "Video":
+    - /url: https://www.cnn.com/video
+    - text: Watch
+  - link "Audio":
+    - /url: https://www.cnn.com/audio
+    - text: Listen
+  - link "Live TV":
+    - /url: https://www.cnn.com/live-tv
+  - separator
+  - text: Follow CNN
+  - list:
+    - listitem:
+      - link "Visit us on Facebook":
+        - /url: https://facebook.com/CNN
+    - listitem:
+      - link "Visit us on X":
+        - /url: https://twitter.com/CNN
+    - listitem:
+      - link "Visit us on Instagram":
+        - /url: https://instagram.com/CNN
+    - listitem:
+      - link "TikTok":
+        - /url: https://www.tiktok.com/@cnn?lang=en
+        - img "TikTok"
+    - listitem:
+      - link "LinkedIn":
+        - /url: https://www.linkedin.com/company/cnn
+        - img "LinkedIn"
+  - link "Subscribe Button": Subscribe
+  - navigation "User Account Nav":
+    - link "User Account Log In Button": Sign in
+  - separator
+  - navigation:
+    - link "Terms of Use":
+      - /url: https://www.cnn.com/terms
+    - link "Privacy Policy":
+      - /url: https://www.cnn.com/privacy
+    - link "Cookie Settings":
+      - /url: "#"
+    - link "Ad Choices":
+      - /url: https://www.cnn.com/ad-choices
+    - link "Accessibility & CC":
+      - /url: https://www.cnn.com/accessibility
+    - link "About":
+      - /url: https://www.cnn.com/about
+    - link "Subscribe":
+      - /url: https://www.cnn.com/subscription?source=sub_web_footerlink-link
+    - link "Newsletters":
+      - /url: https://www.cnn.com/newsletters
+    - link "Transcripts":
+      - /url: https://www.cnn.com/transcripts
+    - link "Help Center":
+      - /url: https://help.cnn.com/
+  - paragraph: © 2025 Cable News Network. A Warner Bros. Discovery Company. All Rights Reserved. CNN Sans ™ & © 2016 Cable News Network.
+- iframe
+- img
+```
+
+# Test source
+
+```ts
+   1 | import { test, expect } from "@playwright/test";
+   2 |
+   3 | test("All links on CNN homepage return status < 400", async ({
+   4 |   page,
+   5 |   request
+   6 | }) => {
+>  7 |   await page.goto("https://www.cnn.com");
+     |              ^ Error: page.goto: Test timeout of 30000ms exceeded.
+   8 |
+   9 |   const links = await page.$$eval("a", (as) => as.map((a) => a.href));
+  10 |
+  11 |   for (const link of links) {
+  12 |     if (link.startsWith("http")) {
+  13 |       // skip non-HTTP links like 'javascript:void(0)'
+  14 |       const response = await request.get(link);
+  15 |       console.log(link);
+  16 |       expect(response.status(), `Link failed: ${link}`).toBeLessThan(400);
+  17 |     }
+  18 |   }
+  19 | });
+  20 |
+```

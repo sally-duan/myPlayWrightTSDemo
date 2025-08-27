@@ -1,0 +1,19 @@
+import { test, expect } from "@playwright/test";
+
+test("All links on CNN homepage return status < 400", async ({
+  page,
+  request
+}) => {
+  await page.goto("https://www.cnn.com");
+
+  const links = await page.$$eval("a", (as) => as.map((a) => a.href));
+
+  for (const link of links) {
+    if (link.startsWith("http")) {
+      // skip non-HTTP links like 'javascript:void(0)'
+      const response = await request.get(link);
+      console.log(link);
+      expect(response.status(), `Link failed: ${link}`).toBeLessThan(400);
+    }
+  }
+});

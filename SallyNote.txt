@@ -1,0 +1,2 @@
+cucumber run command:
+npx cucumber-js src/features/Homepage.feature --require-module ts-node/register --require src/step-definitions/**/*.ts

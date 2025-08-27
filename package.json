@@ -1,0 +1,26 @@
+{
+  "name": "playwrightplayground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cucumberWithTS:": "npx cucumber-js src/features/Homepage.feature --require-module ts-node/register --require src/step-definitions/**/*.ts --require src/utils/cucumber-timeout.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.1.13",
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.52.0",
+    "@types/chance": "^1.1.7",
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.1.0",
+    "express": "^5.1.0",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2"
+  }
+}
